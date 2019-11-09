@@ -15,4 +15,12 @@ let firstTruck = carIds.find(
     car => car.style==='Truck'
 );
 
+
 console.log(firstTruck);
+
+
+let firstSedan = carIds.find(
+    car => car.style=='Sedan'
+);
+
+console.log(firstSedan);
